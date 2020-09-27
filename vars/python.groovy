@@ -5,7 +5,7 @@ def call() {
 
 
         stages {
-            stage('Python Lint Check1') {
+            stage('Python Lint Check2') {
                 steps {
                     sh '''
                     pylint payment.py || true
