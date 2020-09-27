@@ -28,7 +28,7 @@ def call() {
 
             }
 
-            stage('Compile Code') {
+            stage('Compile Code Stage') {
                 steps {
                     sh '''
                     cd src
